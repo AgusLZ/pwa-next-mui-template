@@ -12,13 +12,13 @@ import NavMobile from "./NavMobile";
 
 const linksLeft = [
   {
-    label: "Plantillas",
-    href: "/plantillas",
+    label: "Crear Torneos",
+    href: "/creartorneos",
     icon: <Web />,
   },
   {
-    label: "Precios",
-    href: "/precios",
+    label: "Mis Torneos",
+    href: "/mistorneos",
     icon: <MonetizationOn />,
   },
 ];
@@ -47,7 +47,7 @@ const Header = () => (
       />
       <meta name="description" content="Description" />
       <meta name="keywords" content="Keywords" />
-      <title>Next.js PWA Example</title>
+      <title>Mi Torneo</title>
 
       <link rel="manifest" href="/manifest.json" />
       <meta name="theme-color" content="#317EFB" />

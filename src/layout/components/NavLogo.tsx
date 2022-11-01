@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
 
-const NavLogo = () => <Box>NJS</Box>;
+const NavLogo = () => <Box>MT</Box>;
 
 export default NavLogo;

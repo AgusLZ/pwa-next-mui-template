@@ -4,8 +4,8 @@ import Image from "next/image";
 const BuildFastSection = () => {
   return (
     <CardSection
-      title="Construye rápido. Crece rápido. Carga más rápido"
-      subtitle="Obtén una página web profesional que cargue a la velocidad de la luz. Convierte más tráfico de tu página web en clientes y clasifica entre los primeros en los motores de búsqueda."
+      title="Crea torneos rápido. Juega los mejores modos de competición"
+      subtitle="Crea los torneos que quieras con los equipos que quieras, para jugar con tus amigos, expandir tu liga."
       withButtonCreate
       reverseContent
     >
