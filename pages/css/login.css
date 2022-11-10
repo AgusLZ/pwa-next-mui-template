@@ -1,0 +1,47 @@
+
+#login-box {
+    border: 1px solid blue;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px 50px;
+}
+
+#login-box h1 {
+    color: white;
+}
+
+#login-box .form .item input {
+    width: 200px; /* Establecer el ancho apropiado */
+    border: 0; /* Primero cancele el borde, para que pueda modificar el ancho del borde inferior debajo */
+    border-bottom: 5px solid white; /* Modificar el límite inferior para mostrar el efecto de línea horizontal */
+    font-size: 18px; /* Aumentar el tamaño de fuente de forma adecuada */
+    background: #ffffff00; /* Establecer el cuadro de entrada en transparente */
+    color: white; /* El color del texto anterior se establece en blanco, pero el color del marcador de posición debe establecerse por separado */
+    padding: 5px 10px; /* Para que el contenido del marcador de posición no se muestre en la cuadrícula superior, aumente el borde interno */
+}
+
+#login-box .form .item i {
+    color: white;
+    font-size: 18px;
+}
+
+#login-box button {
+    border: 0; 
+    width: 150px; /* Establecer la longitud y el ancho apropiados del botón */
+    height: 30px;
+    margin-top: 18px; /* Establezca el ancho apropiado del marco exterior superior y aumente la distancia desde el cuadro de contraseña superior */
+    font-size: 18px; /* Modificar el tamaño del texto del botón */
+    color: white; /* Modificar el color del texto en el botón */
+    border-radius: 25px; /* Establecer los bordes izquierdo y derecho del botón en arcos */
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); /* Agrega un color degradado al botón */
+}
+
+body {
+    background: url("../img/12345.jpg") center; /* Primero agregue la imagen de fondo */
+    background-size: 100% auto; /* Establecer el tamaño del fondo */
+    background-repeat: no-repeat; /* Establecer el fondo para que no se repita la visualización */
+}
+
