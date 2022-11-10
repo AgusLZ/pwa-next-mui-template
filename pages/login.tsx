@@ -1,25 +1,24 @@
 import React from 'react'
-import './css/login.css'
 const login = () => {
   return (
     <form action="#" method="POST">
-        <div id="login-box">
-            <h1>Login</h1> 
+        <div id="login-box" >
+            <h1 >Iniciar sesion</h1> 
 
             <div id="form">
                 <div id="item">
                     <i></i>
-                    <input type="text" placeholder="username" name="username"/>
+                    <input type="text" placeholder="Nombre de usuario" name="username"/>
                 </div>
 
                 <div id="item">
                     <i></i>
-                    <input type="password" placeholder="password" name="password"/>
+                    <input type="password" placeholder="Contraseña" name="password"/>
                 </div>
 
             </div>
             
-            <button type="submit">Login</button>
+            <button type="submit">Iniciar</button>
         </div>
      </form>
   )

@@ -14,3 +14,69 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+#login-box {
+  border: 1px solid rgb(255, 255, 255);
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15%;
+  background: #00000080;
+  padding: 20px 50px;
+}
+
+#login-box h1 {
+  color: white;
+}
+
+#login-box .form .item input {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 50px; /* Establecer el ancho apropiado */
+  border: 20px; /* Primero cancele el borde, para que pueda modificar el ancho del borde inferior debajo */
+  border-bottom: 40px solid white; /* Modificar el límite inferior para mostrar el efecto de línea horizontal */
+  font-size: 18px; /* Aumentar el tamaño de fuente de forma adecuada */
+  background: white; /* Establecer el cuadro de entrada en transparente */
+  color: white; /* El color del texto anterior se establece en blanco, pero el color del marcador de posición debe establecerse por separado */
+  padding: 5px 10px; /* Para que el contenido del marcador de posición no se muestre en la cuadrícula superior, aumente el borde interno */
+}
+
+#login-box .form .item i {
+  color: white;
+  font-size: 18px;
+}
+
+#login-box button {
+  border: 0; 
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 150px; /* Establecer la longitud y el ancho apropiados del botón */
+  height: 30px;
+  margin-top: 30px; /* Establezca el ancho apropiado del marco exterior superior y aumente la distancia desde el cuadro de contraseña superior */
+  font-size: 18px; /* Modificar el tamaño del texto del botón */
+  color: rgb(0, 0, 0); /* Modificar el color del texto en el botón */
+  border-radius: 25px; /* Establecer los bordes izquierdo y derecho del botón en arcos */
+  background-image: linear-gradient(to right, #007aec 10%,white 35%, yellow 45%, white 65%, #007aec 100%); /* Agrega un color degradado al botón */
+}
+
+body {
+  background: rgb(252, 136, 136), center; /* Primero agregue la imagen de fondo */
+  background-size: 100% auto; /* Establecer el tamaño del fondo */
+  background-repeat: no-repeat; /* Establecer el fondo para que no se repita la visualización */
+}
+
+form {
+  display: block;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
