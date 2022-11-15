@@ -18,10 +18,10 @@ import CardSection from "./CardSection";
 const OnlineSaleSection = () => {
   const profits: { title: string; icon: JSX.Element; description: string }[] = [
     {
-      title: "Configurar en minutos.",
+      title: "Crea en minutos.",
       icon: <Timer />,
       description:
-        "Utiliza nuestra plataforma eCommerce todo en uno para construir tu tienda online y comenzar las ventas hoy mismo.",
+        "Utiliza nuestra plataforma MiTorneo todo en uno para construir tu torneo y comenzar las ventas hoy mismo.",
     },
     {
       title: "Vende donde sea.",

@@ -10,7 +10,7 @@ const Home = () => {
         <Container>
           <Stack spacing={8} py={8}>
             <BuildFastSection />
-            <CustomerSuportSection />
+             <CustomerSuportSection />
             <OnlineSaleSection />
           </Stack>
         </Container>
