@@ -18,7 +18,7 @@ const linksLeft = [
   },
   {
     label: "Mis Torneos",
-    href: "/mistorneos",
+    href: "/nohaytorneoscreados",
     icon: <MonetizationOn />,
   },
 ];
