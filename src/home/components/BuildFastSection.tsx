@@ -9,12 +9,7 @@ const BuildFastSection = () => {
       withButtonCreate
       reverseContent
     >
-      <Image
-        src="https://picsum.photos/1200/800"
-        alt="Demo de una web dedicada a la indumentaria"
-        height="800px"
-        width="1200px"
-      />
+      <img src="/imagenes/2.png" alt="Imagen de un equipo deportivo" />
     </CardSection>
   );
 };
