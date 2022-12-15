@@ -116,3 +116,15 @@ input {
   color: white;
 }
 
+@media screen and (max-width: 1900px) {
+  #create{
+    border: 2px solid rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: #57545488;
+    padding: 50px 80px;
+    border-radius: 15px;
+  }
+}
