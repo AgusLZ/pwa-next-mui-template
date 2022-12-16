@@ -82,20 +82,21 @@ input {
 }
 
 #create{
-  border: 2px solid rgb(255, 255, 255);
-  width: 30%;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 10%;
-  background: #57545488;
-  padding: 50px 80px;
-  border-radius: 15px;
+  margin: 70px;
+  border-radius: 4px;
+  border: 1px solid rgb(179, 177, 277);
+  background-color: #b3b1b1bc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 #title-1{
   text-align: center;
-  font-size: 2rem;
-  margin: 1rem;
+  font-size: 1.5rem;
+  font: bold;
+  margin: 2rem;
 }
 
 #outlined-basic{
@@ -104,14 +105,14 @@ input {
 
 #btn-select{
   font-size: 1rem;
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 5px;
 }
 
 #send{
-  margin: 1rem;
+  margin: 0.5rem;
   background-color: #007aec;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   color: white;
 }
@@ -119,6 +120,16 @@ input {
 @media screen and (min-width: 1024px) {
   #img-1{
     width: 500px;
+  }
+
+  #create{
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  background: #57545488;
+  padding: 50px 80px;
+  border-radius: 15px;
   }
  
 }
