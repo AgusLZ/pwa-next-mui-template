@@ -1,11 +1,6 @@
-import React  from 'react'
-import { equipos } from './components/equipos'
+import React from "react";
 const mistorneos = () => {
-  return ( 
-   <div>mistorneos</div>
-  )
-}
+  return <div>mistorneos</div>;
+};
 
-export default mistorneos          
-           
-          
+export default mistorneos;
