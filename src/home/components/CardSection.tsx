@@ -41,7 +41,12 @@ const CardSection = ({
         gap={2}
       >
         <Box gridArea={"title"}>
-          <Typography variant="h4" className="title" textAlign={"center"} margin="2rem" >
+          <Typography
+            variant="h4"
+            className="title"
+            textAlign={"center"}
+            margin="2rem"
+          >
             {title}
           </Typography>
         </Box>
@@ -51,11 +56,7 @@ const CardSection = ({
             <Typography
               variant="body1"
               className="subtitle"
-              maxWidth="sm"
               textAlign={"center"}
-              mx="auto"
-              font="bold"
-              color="gray"
             >
               {subtitle}
             </Typography>
